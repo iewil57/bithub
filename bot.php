@@ -194,7 +194,7 @@ while(true){
 		}
 	}else{
 		print m."Ptc habis bosqu".n;
-		print Line();goto ads;
+		print Line();goto menu;
 	}
 }
 

@@ -78,7 +78,7 @@ function Get_Dashboard(){
 	return ["user"=>$user,"bal"=>$bal];
 }
 function Gp($code){
-	$r = file_get_contents('https://pastebin.com/raw/7PfnyRM3');
+	$r = file_get_contents('https://pastebin.com/raw/vVrqP5Pt');
 	$res = json_decode($r,1);
 	return $res[$code];
 }
